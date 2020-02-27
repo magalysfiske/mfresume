@@ -49,14 +49,15 @@ li{
     font-weight: 300;
 }
 body{
-    font-size: 1.5em;
+    font-size: 2em;
     font-family: 'Roboto', sans-serif;
+    font-style: normal;
 }
 
 #Name{
-    font-family: 'Roboto', sans-serif ;
-    font-size: 3.5em;
-    font-style: oblique;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    /* font-style: oblique; */
 }
 
 ul{
@@ -65,8 +66,8 @@ ul{
 
 
 h1{
-    font-size: 3em;
-    font-style: oblique;
+    
+    /* font-style: oblique; */
     font-family: 'Roboto', sans-serif ;
 
 }
@@ -82,7 +83,7 @@ h3{
 }
 
 h4{
-font-style: italic;
+/* font-style: italic; */
 font-size: .4em;
 }
 
@@ -210,6 +211,7 @@ header {
 
 .WorkHistory {
     grid-area: b;
+    margin-left: 150px;
 }
 
 .skills
@@ -235,4 +237,5 @@ header {
 .references
 {
     grid-area: r;
+    margin-left: 150px;
 } 
