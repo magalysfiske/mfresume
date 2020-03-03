@@ -40,23 +40,20 @@
         "r r r r r r a a a a a a";
 }
 li{
-    font-size: .4em;
+    font-size: .6em;
     font-weight: 500;
     padding:10px;
 }
 
-.date{
-    font-weight: 300;
-}
 body{
     font-size: 2em;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
 }
 
-#Name{
+.Name{
     font-family: 'Roboto', sans-serif;
-    font-size: 3em;
+    font-size: 2em;
     /* font-style: oblique; */
 }
 
@@ -67,7 +64,7 @@ ul{
 
 h1{
     
-    /* font-style: oblique; */
+    font-style: oblique;
     font-family: 'Roboto', sans-serif ;
 
 }
@@ -79,18 +76,18 @@ h2{
 
 h3{
     padding-top:10px;
-    font-size: .5em;
+    font-size: .7em;
 }
 
 h4{
 /* font-style: italic; */
-font-size: .4em;
+font-size: .6em;
 }
 
 h5{
     font-family: 'Roboto', 500 ;
     font-style: bold;
-    font-size: .4em;
+    font-size: .5em;
 }
 
 h6{
@@ -102,7 +99,7 @@ h6{
 }
 
 p{
-    font-size: .4em;
+    font-size: .6em;
     font-weight: 500;
     /* padding:10px; */
 }
@@ -122,7 +119,7 @@ a:hover{
     font-weight: lighter;
 }
 
- .square {
+.square {
     margin-top: 15%; 
     height: 400px;
     background-color: #607d8a ;
@@ -130,7 +127,7 @@ a:hover{
     margin-top: -190px;
   } 
 
-  .namesquare {
+.namesquare {
     width: 480px;
     height: 300px;
     border: 2px solid whitesmoke;
@@ -142,14 +139,18 @@ a:hover{
     margin-left: 40px;
   }
 
-  .me{
+.me{
       grid-column-start: 2;
       grid-row-start: 1;
       z-index: 2;
-      width: 480px;
-      height: 300px;
+      width: 400px;
+      height: 400px;
+      margin-left: -10px;
+      margin-top: -95px;
+      margin-left: 40px;
   }
-  .ycircle {
+
+.ycircle {
     margin-left: -10px;
     margin-top: -150px;
     grid-column-start: 2;
@@ -199,23 +200,39 @@ a:hover{
 header {
     color: white;
     /* grid-area: h; */
-    margin-top: -90px;
+    margin-top: -80px;
     margin-left: 80px;
     /* border: 2px solid whitesmoke; */
     z-index: 1;
     grid-row-start: 1;
     grid-column-start: 7;
     grid-column-end: 12;
+    
   
+}
+
+.subheader{
+    color: white;
+    /* grid-area: h; */
+    margin-top: -10px;
+    margin-left: 80px;
+    /* border: 2px solid whitesmoke; */
+    z-index: 1;
+    grid-row-start: 1;
+    grid-column-start: 7;
+    grid-column-end: 12;
+    font-size: 50px;
 }
 
 .WorkHistory {
     grid-area: b;
     margin-left: 150px;
+    margin-top: 50px;
 }
 
 .skills
 {
+    margin-top: 50px;
      grid-area: q;
 }
 .education {
@@ -239,3 +256,8 @@ header {
     grid-area: r;
     margin-left: 150px;
 } 
+
+.tname{
+    font-size: 1em;
+    font-weight: bolder;
+}
