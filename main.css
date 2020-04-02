@@ -106,7 +106,7 @@ p{
 
 a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 a:hover{
@@ -290,7 +290,7 @@ header {
 }
 
 .subheader{
-    color: white
+    color: white;
     /* grid-area: h; */
     margin-top: -10px;
     margin-left: 80px;
