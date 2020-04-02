@@ -106,7 +106,7 @@ p{
 
 a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 a:hover{
@@ -169,7 +169,7 @@ a:hover{
     font-weight: lighter;  
   }
 /* step three - build a grid that becomes active when the pixels are 800px or less */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
 
     .container{
         display: grid;
@@ -180,14 +180,92 @@ a:hover{
         grid-template-rows: auto;
         grid-template-areas:
         "c"
-        "h"
         "b"
         "a"
         "e"
-        /* "f" */
         "q"
         "r"
     }
+    .WorkHistory {
+        grid-area: b;
+        margin-left: 25px;
+    }
+    .me{
+        grid-row-start: 1;
+        grid-column-start: 1;
+        z-index: 2;
+        width: 200px;
+        height: 200px;
+        margin-top: 90px;
+        margin-left: 25px;
+    }
+    .ycircle {
+        grid-row-start: 1;
+        grid-column-start: 1;
+        margin-left: 1px;
+        margin-top: 70px;
+        height: 250px;
+        width: 250px;
+        background-color:#fecc00;
+        opacity: 50%;
+        border-radius: 50%;
+        display: inline-block;
+      }
+      .square {
+        margin-top: 15%; 
+        height: 400px;
+        width: 900px;
+        background-color: #607d8a ;
+        z-index: 1;
+        margin-top: -190px;
+      } 
+      .namesquare {
+        width: 350px;
+        height: 200px;
+        border: 2px solid whitesmoke;
+        z-index: 1;
+        grid-row-start: 1;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        margin-top: -10px;
+        margin-left: 120px;
+      }
+      .Name {
+        color:white;
+        /* grid-area: h; */
+        margin-top: 80px;
+        margin-left: -935px;
+        font-size: 45px ;
+        /* border: 2px solid whitesmoke; */
+        z-index: 1;
+        /* grid-row-start: 1;
+        grid-column-start: 1; */
+        /* grid-column-end: 1; */
+         }
+         .awards {
+            grid-area: a;
+            margin-left: 25px;
+        }
+        .education {
+            grid-area: e;
+            margin-left: 25px;
+        }
+        .skills{
+            margin-top: 50px;
+             grid-area: q;
+             margin-left: 25px;
+        } 
+        .references{
+            grid-area: r;
+            margin-left: 25px;
+        } 
+        .tname{
+            font-size: 1em;
+            font-weight: bolder;
+            margin-left: 25px;
+        }
+        
+    
 }
 
 /* step 1 - assign each of your sections a letter */
@@ -212,7 +290,7 @@ header {
 }
 
 .subheader{
-    color: white;
+    color: black;
     /* grid-area: h; */
     margin-top: -10px;
     margin-left: 80px;
@@ -251,8 +329,7 @@ header {
     grid-area: c;
 }
 
-.references
-{
+.references{
     grid-area: r;
     margin-left: 150px;
 } 
